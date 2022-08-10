@@ -1,5 +1,8 @@
 FROM python:3.7.3-stretch
 
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONNUNBUFFERED=1
+
 ## Step 1:
 # Create a working directory
 WORKDIR /project4
@@ -12,7 +15,7 @@ COPY . app.py /app/
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 RUN pip install --upgrade pip &&\
-    pip install --trusted-host pypi.python.org -r requirements.txt
+    pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
 
 ## Step 4:
 # Expose port 80
