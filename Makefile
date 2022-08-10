@@ -21,7 +21,7 @@ test:
 	# python -m pytest --nbval notebook.ipynb
 
 validate-circleci:
-	circelci config validate
+	circleci config validate
 
 run-circleci-local:
 	circleci local execute
