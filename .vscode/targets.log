@@ -5,12 +5,13 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Wed Aug 10 18:13:17 2022
+# Make data base, printed on Mon Aug 15 00:43:15 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -34,7 +35,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1656_FGAEPNFBNGJTEFCJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2000_FQNLUNKOHNXTXZVS
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -46,7 +49,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\LENOVO\AppData\Roaming\Code\CachedData\da76f93349a72022ca4670c1b84860304616aaa2
+VSCODE_CODE_CACHE_PATH = C:\Users\LENOVO\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
 # environment
 LANG = C
 # default
@@ -64,7 +67,7 @@ ONEDRIVE = C:\Users\LENOVO\OneDrive
 # makefile
 CURDIR := c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
@@ -82,7 +85,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 1656
+VSCODE_PID = 2000
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -114,8 +117,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Users\LENOVO\Downloads\dart-sass;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\LENOVO\AppData\Roaming\Python\Python310\Scripts;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\her 
-oku\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LENOVO\AppData\Roaming\npm
+PATH = C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\LENOVO\AppData\Local\Programs\Python\Python310\;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Calibre2\;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Users\LENOVO\Downloads\dart-sass;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\LENOVO\AppData\Roaming\Python\Python310\Scripts;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\LENOVO\AppData\Roaming\npm
 # environment
 COMPUTERNAME = DESKTOP-7LUTMGP
 # default
@@ -175,7 +177,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\LENOVO\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\0ae98414ad0d9c7d28fffada35881052-1.70.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\0ae98414ad0d9c7d28fffada35881052-1.70.1-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -197,7 +199,7 @@ PROCESSOR_REVISION = 4e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=92/1024=9%, Rehash=0, Collisions=8/122=7%
+# Load=94/1024=9%, Rehash=0, Collisions=9/124=7%
 
 # Pattern-specific Variable Values
 
@@ -205,9 +207,10 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes, mtime 1660144835): 16 files, no impossibilities.
+# . (key c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes, mtime 1660481 
+021): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -324,12 +327,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 262 B / avg = 10 B
-# current buf: size = 8174 B / used = 262 B / count = 25 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 276 B / avg = 10 B
+# current buf: size = 8174 B / used = 276 B / count = 26 / avg = 10 B
 
-# strcache performance: lookups = 41 / hit rate = 39%
+# strcache performance: lookups = 42 / hit rate = 38%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/41=0%
-# Finished Make data base on Wed Aug 10 18:13:17 2022
+# Load=26/8192=0%, Rehash=0, Collisions=0/42=0%
+# Finished Make data base on Mon Aug 15 00:43:15 2022
 
  

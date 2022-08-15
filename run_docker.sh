@@ -10,4 +10,4 @@ docker build --tag=microservice .
 docker image ls
 # Step 3: 
 # Run flask app
-docker run -it micrservice bash
+docker run -p 8000:5001 microservice
