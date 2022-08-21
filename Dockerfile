@@ -2,6 +2,7 @@ FROM python:3.7.3-stretch
 
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONNUNBUFFERED=1
+ENV PIP_NO_CACHE_DIR=1
 
 ## Step 1:
 # Create a working directory
