@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue Aug 16 02:09:14 2022
+# Make data base, printed on Sat Aug 20 22:57:14 2022
 
 # Variables
 
@@ -17,6 +17,8 @@ SYSTEMDRIVE = C:
 LC_ALL = C
 # environment
 USERPROFILE = C:\Users\LENOVO
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\LENOVO\AppData\Local
 # environment
@@ -34,7 +36,7 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7636_KGCTITPANNLLBUWL
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17612_CILYANNMUWMPSQBW
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -46,7 +48,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\LENOVO\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = C:\Users\LENOVO\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LANG = C
 # default
@@ -82,7 +84,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7636
+VSCODE_PID = 17612
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -133,8 +135,7 @@ USERNAME = LENOVO
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # automatic
 ?F = $(notdir $?)
-# envir 
-onment
+# environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
@@ -175,7 +176,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\LENOVO\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\0ae98414ad0d9c7d28fffada35881052-1.70.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\0ae98414ad0d9c7d28fffada35881052-1.70.2-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -197,7 +198,7 @@ PROCESSOR_REVISION = 4e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=92/1024=9%, Rehash=0, Collisions=8/122=7%
+# Load=93/1024=9%, Rehash=0, Collisions=8/123=7%
 
 # Pattern-specific Variable Values
 
@@ -228,7 +229,8 @@ lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 30):
+#   
+recipe to execute (from 'Makefile', line 30):
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
 	# This is linter for Dockerfiles
 	hadolint Dockerfile
@@ -325,12 +327,11 @@ install:
 # No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 26 / storage = 276 B / avg = 10 B
-# current buf: size = 8174 B / used = 276 B / count = 26 / a 
-vg = 10 B
+# current buf: size = 8174 B / used = 276 B / count = 26 / avg = 10 B
 
 # strcache performance: lookups = 42 / hit rate = 38%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Tue Aug 16 02:09:14 2022
+# Finished Make data base on Sat Aug 20 22:57:14 2022
 
  

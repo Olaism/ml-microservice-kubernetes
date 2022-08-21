@@ -16,4 +16,4 @@ kubectl create deploy microservice --image=olaism/microservice:latest
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/microservice-84857d9565-2598m --address 0.0.0.0 8000:80
+kubectl port-forward pod/microservice-d5df7d76-whcvk --address 0.0.0.0 8000:80
