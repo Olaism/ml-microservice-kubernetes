@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Olaism/ml-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Olaism/ml-microservice-kubernetes/tree/main)
 
 ## Project Overview
 
@@ -49,3 +50,12 @@ source .devops/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 # ml-microservice-kubernetes
+
+### A brief introduction of the files
+
+* makefile - It defines series of instruction to setup, install, test, circle-ci validation and linting.
+* run_docker - A script that contains the neccessary files to run docker locally
+* upload_docker - A script that push the docker image to dockerhub
+* run_kubernetes - a script that contains steps to run kubernertes using minikube
+* make-prediction - A scriot to make prediction when app is running
+* requirements.txt - contains all neccessary dependencies to make the app work

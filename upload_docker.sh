@@ -12,7 +12,7 @@ dockerpath=olaism/microservice:latest
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 winpty docker login -u olaism
-docker image tag microservice olaism/microservice:latest
+docker image tag microservice $dockerpath
 # docker tag local-image:microservice new-repo:microservice:latest
 
 # Step 3:
