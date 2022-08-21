@@ -2,7 +2,6 @@ make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes'
 # Create python virtualenv & source it
 # source ~/.devops/bin/activate
- 
 python3 -m venv ~/.devOps4
 make: Leaving directory 'c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes'
  

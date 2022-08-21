@@ -5,12 +5,13 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Sat Aug 20 22:57:14 2022
+# Make data base, printed on Sun Aug 21 03:25:19 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -36,7 +37,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17612_CILYANNMUWMPSQBW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7492_BARNQAGAFRTSAJZO
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -84,7 +87,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 17612
+VSCODE_PID = 7492
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -198,7 +201,7 @@ PROCESSOR_REVISION = 4e03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=8/123=7%
+# Load=95/1024=9%, Rehash=0, Collisions=9/125=7%
 
 # Pattern-specific Variable Values
 
@@ -206,9 +209,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes, mtime 1660553783): 17 files, no impossibilities.
+# . (key c:/Users/LENOVO/Desktop/Udacity-DevOps/4 - Microservices at Scale using AWS And Kubernetes/Lesson 6 - Projects/DevOps_Microservices/project-ml-microservice-kubernetes, mtime 1661064714): 18 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -229,8 +232,7 @@ lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#   
-recipe to execute (from 'Makefile', line 30):
+#  recipe to execute (from 'Makefile', line 30):
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
 	# This is linter for Dockerfiles
 	hadolint Dockerfile
@@ -241,7 +243,7 @@ recipe to execute (from 'Makefile', line 30):
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-10 08:20:35
+#  Last modified 2022-08-20 23:31:15
 #  File has been updated.
 #  Successfully updated.
 
@@ -326,12 +328,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 276 B / avg = 10 B
-# current buf: size = 8174 B / used = 276 B / count = 26 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 287 B / avg = 10 B
+# current buf: size = 8174 B / used = 287 B / count = 27 / avg = 10 B
 
-# strcache performance: lookups = 42 / hit rate = 38%
+# strcache performance: lookups = 43 / hit rate = 37%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=0/42=0%
-# Finished Make data base on Sat Aug 20 22:57:14 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/43=0%
+# Finished Make data base on Sun Aug 21 03:25:19 2022
 
  
